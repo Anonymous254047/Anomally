@@ -1,0 +1,16 @@
+scapy
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+pyyaml
+python-dotenv
+flask
+psutil
+dnspython
+geoip2
+pycryptodome
+elasticsearch
+kafka-python
+plotly
