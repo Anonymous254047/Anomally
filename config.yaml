@@ -1,0 +1,29 @@
+network_monitoring:
+  enabled: true
+  frequency: 60  # in seconds
+
+anomaly_detection:
+  thresholds:
+    normal: 100
+    warning: 200
+    critical: 300
+
+logging:
+  level: "info"
+  file: "logs/network_monitor.log"
+
+alerts:
+  email:
+    enabled: true
+    recipients:
+      - "alert@example.com"
+  webhook:
+    enabled: false
+
+database:
+  connection_string: "postgres://user:password@localhost:5432/mydb"
+
+modules:
+  anomaly_detection: true
+  logging: true
+  alerts: false
